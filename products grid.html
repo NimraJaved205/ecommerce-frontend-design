@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Shared Header (loaded via JS) -->
+  <div id="header"></div>
+
+  
+    <!-- Breadcrumb -->
+<nav class="breadcrumb">
+  <a href="#">Home</a>
+  <span>&gt;</span>
+  <a href="#">Clothings</a>
+  <span>&gt;</span>
+  <a href="#">Men's wear</a>
+  <span>&gt;</span>
+  <a href="#">Summer clothing</a>
+</nav>
+
+
+
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Sidebar Filters -->
+    <aside class="filters-sidebar">
+      <div class="filter-group">
+        <h3>Category</h3>
+        <label><input type="checkbox"> Mobile accessory</label>
+        <label><input type="checkbox"> Electronics</label>
+        <label><input type="checkbox"> Smartphones</label>
+        <label><input type="checkbox"> Modern tech</label>
+        <a href="#">See all</a>
+      </div>
+      <div class="filter-group">
+        <h3>Brands</h3>
+        <label><input type="checkbox"> Samsung</label>
+        <label><input type="checkbox"> Apple</label>
+        <label><input type="checkbox"> Huawei</label>
+        <label><input type="checkbox"> Poco</label>
+        <label><input type="checkbox"> Lenovo</label>
+        <a href="#">See all</a>
+      </div>
+      <div class="filter-group">
+        <h3>Features</h3>
+        <label><input type="checkbox"> Metallic</label>
+        <label><input type="checkbox"> Plastic cover</label>
+        <label><input type="checkbox"> 8GB Ram</label>
+        <label><input type="checkbox"> Super power</label>
+        <label><input type="checkbox"> Large Memory</label>
+        <a href="#">See all</a>
+      </div>
+
+
+       <!-- New Dropdown Filters Below -->
+    <div class="filter-group">
+      <h3>Price Range</h3>
+      <select class="custom-dropdown">
+        <option value="">Select Price Range</option>
+        <option value="0-50">$0 - $50</option>
+        <option value="50-100">$50 - $100</option>
+        <option value="100-200">$100 - $200</option>
+        <option value="200-500">$200 - $500</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <h3>Condition</h3>
+      <select class="custom-dropdown">
+        <option value="">Select Condition</option>
+        <option value="new">New</option>
+        <option value="used">Used</option>
+        <option value="refurbished">Refurbished</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <h3>Ratings</h3>
+      <select class="custom-dropdown">
+        <option value="">Select Ratings</option>
+        <option value="1">★☆☆☆☆</option>
+        <option value="2">★★☆☆☆</option>
+        <option value="3">★★★☆☆</option>
+        <option value="4">★★★★☆</option>
+        <option value="5">★★★★★</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <h3>Manufacturer</h3>
+      <select class="custom-dropdown">
+        <option value="">Select Manufacturer</option>
+        <option value="brandA">Brand A</option>
+        <option value="brandB">Brand B</option>
+        <option value="brandC">Brand C</option>
+        <option value="brandD">Brand D</option>
+      </select>
+    </div>
+  </aside>
+
+  <!-- Product Listing -->
+    <section class="product-area">
+      <div class="top-bar">
+        <span>12,911 items in <strong>Mobile accessory</strong></span>
+        <div class="actions">
+          <label><input type="checkbox" checked> Verified only</label>
+          <select>
+            <option>Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+          </select>
+          <div class="layout-toggle">
+            <i class="fas fa-th"></i>
+            <i class="fas fa-bars active"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Filters Applied Bar -->
+<div class="filters-applied">
+  <span class="filter-item">Samsung <button class="remove-btn">&times;</button></span>
+  <span class="filter-item">Apple <button class="remove-btn">&times;</button></span>
+  <span class="filter-item">Poco <button class="remove-btn">&times;</button></span>
+  <span class="filter-item">Metallic <button class="remove-btn">&times;</button></span>
+  <span class="filter-item">4 Star <button class="remove-btn">&times;</button></span>
+  <span class="filter-item">3 Star <button class="remove-btn">&times;</button></span>
+  <button class="clear-all">Clear all filter </button>
+</div>
+
+
+<div class="products-grid-container-alt">
+  <div class="product-card-alt">
+    <img src="images/iphone.png" alt="Canon Camera EOS 2000" />
+    <div class="product-info-alt">
+      <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★★☆ <span class="rating-num-alt">7.5</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+
+  <div class="product-card-alt">
+    <img src="images/bluephone.png" alt="GoPro HERO6 4K Action Camera" />
+    <div class="product-info-alt">
+      <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★☆☆ <span class="rating-num-alt">5.9</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+
+  <div class="product-card-alt">
+    <img src="images/phone.png" alt="GoPro HERO6 4K Action Camera" />
+    <div class="product-info-alt">
+      <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★★☆ <span class="rating-num-alt">7.5</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+
+  <div class="product-card-alt">
+    <img src="images/phone2.png" alt="GoPro HERO6 4K Action Camera" />
+    <div class="product-info-alt">
+      <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★★☆ <span class="rating-num-alt">7.5</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+     
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+
+  <div class="product-card-alt">
+    <img src="images/camera.png" alt="GoPro HERO6 4K Action Camera" />
+    <div class="product-info-alt">
+      <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★★☆ <span class="rating-num-alt">7.5</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+     
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+
+  <div class="product-card-alt">
+    <img src="images/bluephone.png" alt="GoPro HERO6 4K Action Camera" />
+    <div class="product-info-alt">
+   <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★★☆ <span class="rating-num-alt">7.5</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+      
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+
+  <div class="product-card-alt">
+    <img src="images/laptop.png" alt="GoPro HERO6 4K Action Camera" />
+    <div class="product-info-alt">
+   <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★★☆ <span class="rating-num-alt">7.5</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+      
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+
+
+  <div class="product-card-alt">
+    <img src="images/watch.png" alt="GoPro HERO6 4K Action Camera" />
+    <div class="product-info-alt">
+   <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★★☆ <span class="rating-num-alt">7.5</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+      
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+
+
+  <div class="product-card-alt">
+    <img src="images/iphone.png" alt="GoPro HERO6 4K Action Camera" />
+    <div class="product-info-alt">
+   <div class="price-alt"><strong>$99.50</strong> <span class="old-price-alt">$1128.00</span></div>
+      <div class="stars-alt">★★★★☆ <span class="rating-num-alt">7.5</div>
+      <p>GoPro HERO6 4K Action <br>Camera - Black</p>
+      
+    </div>
+    <div class="wishlist-alt"><i class="far fa-heart"></i></div>
+  </div>
+</div>
+
+
+<!-- Pagination Section (Before Newsletter) -->
+<div class="pagination-section">
+  <select class="items-select">
+    <option>show 10</option>
+    <option>show 20</option>
+    <option>show 30</option>
+  </select>
+
+  <div class="page-buttons">
+    <button>&lt;</button>
+    <button class="active">1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>&gt;</button>
+  </div>
+</div>
+
+
+
+
+
+
+</main>
+
+  <!-- Shared Footer (loaded via JS) -->
+  <div id="footer"></div>
+
+  <!-- Load Header & Footer -->
+  <script>
+    fetch("header.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("header").innerHTML = data;
+      });
+
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("footer").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>

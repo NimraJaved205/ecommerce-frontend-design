@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Shared Header (loaded via JS) -->
+  <div id="header"></div>
+
+    <!-- Breadcrumb -->
+<nav class="breadcrumb">
+  <a href="#">Home</a>
+  <span>&gt;</span>
+  <a href="#">Clothings</a>
+  <span>&gt;</span>
+  <a href="#">Men's wear</a>
+  <span>&gt;</span>
+  <a href="#">Summer clothing</a>
+</nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Sidebar Filters -->
+    <aside class="sidebar">
+      <div class="filter-group">
+        <h3>Category</h3>
+        <label><input type="checkbox"> Mobile accessory</label>
+        <label><input type="checkbox"> Electronics</label>
+        <label><input type="checkbox"> Smartphones</label>
+        <label><input type="checkbox"> Modern tech</label>
+        <a href="#">See all</a>
+      </div>
+      <div class="filter-group">
+        <h3>Brands</h3>
+        <label><input type="checkbox"> Samsung</label>
+        <label><input type="checkbox"> Apple</label>
+        <label><input type="checkbox"> Huawei</label>
+        <label><input type="checkbox"> Poco</label>
+        <label><input type="checkbox"> Lenovo</label>
+        <a href="#">See all</a>
+      </div>
+      <div class="filter-group">
+        <h3>Features</h3>
+        <label><input type="checkbox"> Metallic</label>
+        <label><input type="checkbox"> Plastic cover</label>
+        <label><input type="checkbox"> 8GB Ram</label>
+        <label><input type="checkbox"> Super power</label>
+        <label><input type="checkbox"> Large Memory</label>
+        <a href="#">See all</a>
+      </div>
+       <div class="filter-group">
+      <h3>Price range</h3>
+      <input type="range" min="0" max="1000" value="200" class="slider">
+      <input type="range" min="0" max="1000" value="800" class="slider">
+      <div class="price-inputs">
+        <input type="number" placeholder="Min">
+        <input type="number" placeholder="Max">
+      </div>
+      <button class="apply-btn">Apply</button>
+    </div>
+
+    <!-- Condition -->
+    <div class="filter-group">
+      <h3>Condition</h3>
+      <label><input type="radio" name="condition" checked> Any</label>
+      <label><input type="radio" name="condition"> Refurbished</label>
+      <label><input type="radio" name="condition"> Brand new</label>
+      <label><input type="radio" name="condition"> Old items</label>
+    </div>
+
+    <!-- Ratings -->
+    <div class="filter-group">
+      <h3>Ratings</h3>
+      <label><input type="checkbox"> <span class="stars">★★★★★</span></label>
+      <label><input type="checkbox"> <span class="stars">★★★★☆</span></label>
+      <label><input type="checkbox"> <span class="stars">★★★☆☆</span></label>
+      <label><input type="checkbox"> <span class="stars">★★☆☆☆</span></label>
+    </div>
+        
+      </div>
+    </aside>
+
+    <!-- Product Listing -->
+    <section class="product-area">
+      <div class="top-bar">
+        <span>12,911 items in <strong>Mobile accessory</strong></span>
+        <div class="actions">
+          <label><input type="checkbox" checked> Verified only</label>
+          <select>
+            <option>Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+          </select>
+
+          <div class="layout-toggle">
+  <button id="showGrid" title="Grid View"><i class="fas fa-th"></i></button>
+  <button id="showList" title="List View" class="active"><i class="fas fa-bars"></i></button>
+</div>
+
+        </div>
+      </div>
+
+
+      
+
+      <!-- Example Product -->
+      <div class="product-card">
+        <img src="images/iphone.png" alt="Product">
+        <div class="product-info">
+          <h4>Canon Camera EOS 2000, Black 10x zoom</h4>
+          <div class="price"><strong>$998.00</strong> <span class="old-price">$1128.00</span></div>
+          <div class="stars">★★★★☆ <span class="rating-num">7.5</span> • 154 orders • <span class="free-ship">Free Shipping</span></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+tempor incididunt ut labore et dolore magna aliqua</p>
+          <a href="#">View details</a>
+        </div>
+        <div class="wishlist"><i class="far fa-heart"></i></div>
+      </div>
+
+<!-- Product 2 -->
+<div class="product-card">
+  <img src="images/phone.png" alt="Product">
+  <div class="product-info">
+    <h4>GoPro HERO6 4K Action Camera - Black</h4>
+    <div class="price"><strong>$998.00</strong> <span class="old-price"></span></div>
+    <div class="stars">★★★★☆ <span class="rating-num">8.2</span> • 324 orders • <span class="free-ship">Free Shipping</span></div>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat.Duis aute irure dolor in reprehenderit</p>
+    <a href="#">View details</a>
+  </div>
+  <div class="wishlist"><i class="far fa-heart"></i></div>
+</div>
+
+<!-- Product 3 -->
+<div class="product-card">
+  <img src="images/phone2.png" alt="Product">
+  <div class="product-info">
+    <h4>GoPro HERO6 4K Action Camera - Black</h4>
+    <div class="price"><strong>$998.00</strong> <span class="old-price"></span></div>
+    <div class="stars">★★★★★ <span class="rating-num">9.1</span> • 548 orders • <span class="free-ship">Free Shipping</span></div>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+    <a href="#">View details</a>
+  </div>
+  <div class="wishlist"><i class="far fa-heart"></i></div>
+</div>
+
+<!-- Product 4 -->
+<div class="product-card">
+  <img src="images/laptop.png" alt="Product">
+  <div class="product-info">
+    <h4>GoPro HERO6 4K Action Camera - Black</h4>
+    <div class="price"><strong>$998.00</strong> <span class="old-price"></span></div>
+    <div class="stars">★★★★☆ <span class="rating-num">8.0</span> • 267 orders • <span class="free-ship">Free Shipping</span></div>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+    <a href="#">View details</a>
+  </div>
+  <div class="wishlist"><i class="far fa-heart"></i></div>
+</div>
+
+<!-- Product 5 -->
+<div class="product-card">
+  <img src="images/watch.png" alt="Product">
+  <div class="product-info">
+    <h4>GoPro HERO6 4K Action Camera - Black</h4>
+    <div class="price"><strong>$998.00</strong> <span class="old-price"></span></div>
+    <div class="stars">★★★☆☆ <span class="rating-num">7.0</span> • 187 orders • <span class="free-ship">Free Shipping</span></div>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+    <a href="#">View details</a>
+  </div>
+  <div class="wishlist"><i class="far fa-heart"></i></div>
+</div>
+
+<!-- Product 6 -->
+<div class="product-card">
+  <img src="images/headset.png" alt="Product">
+  <div class="product-info">
+    <h4>GoPro HERO6 4K Action Camera - Black</h4>
+    <div class="price"><strong>$998.00</strong> <span class="old-price"></span></div>
+    <div class="stars">★★★★★ <span class="rating-num">9.4</span> • 643 orders • <span class="free-ship">Free Shipping</span></div>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  <br>ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+    <a href="#">View details</a>
+  </div>
+  <div class="wishlist"><i class="far fa-heart"></i></div>
+</div>
+
+
+<!-- Pagination Section (Before Newsletter) -->
+<div class="pagination-section">
+  <select class="items-select">
+    <option>show 10</option>
+    <option>show 20</option>
+    <option>show 30</option>
+  </select>
+
+  <div class="page-buttons">
+    <button>&lt;</button>
+    <button class="active">1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>&gt;</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+  <!-- Shared Footer (loaded via JS) -->
+  <div id="footer"></div>
+
+  <!-- Load Header & Footer -->
+  <script>
+    fetch("header.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("header").innerHTML = data;
+      });
+
+    fetch("footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("footer").innerHTML = data;
+      });
+  </script>
+
+ <script src="js/products.js"></script>
+
+
+</body>
+</html>
