@@ -9,11 +9,11 @@
 </head>
 <body>
 
-  <!-- 🔝 Header (loaded from header.html) -->
+  <!--  Header  -->
   <div id="header"></div>
 
-  <!-- 📦 Product Section -->
-<!-- 📦 Product Section -->
+  <!-- Product Section -->
+
 <div class="container">
 
   <!-- Sidebar -->
@@ -352,22 +352,24 @@
 
   </section>
 
+  
 
 
 
-  <!-- 🔚 Footer (loaded from footer.html) -->
+
+  <!--  Footer  -->
   <div id="footer"></div>
 
   <!-- JavaScript to load header and footer -->
   <script>
-    // Load header
+    
     fetch("header.html")
       .then(res => res.text())
       .then(data => {
         document.getElementById("header").innerHTML = data;
       });
 
-    // Load footer
+    
     fetch("footer.html")
       .then(res => res.text())
       .then(data => {
